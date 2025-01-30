@@ -1,0 +1,11 @@
+a=121
+a2=a.toString()
+console.log(a2)
+a3=a2.split('').reverse().join('')
+console.log(a3)
+if(a2==a3){
+    console.log('palindrome')
+}
+else{
+    console.log('not')
+}
